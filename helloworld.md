@@ -2,54 +2,56 @@
 title: 'Hello World!'
 author: fdxx
 keywords: 'keywords1, keywords2'
-description: 'This is a markdown example website.'
+description: This is a markdown example website.
 ---
 
 # Hello World
 
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
+# Level 1 title
+## Level 2 title
+### Level 3 title
+#### Level 4 title
 
-## 段落
-**Markdown**是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，`Markdown`被大量使用，如[Github](https://github.com/)、Wikipedia、简书等。
+## Paragraphs
+You can create a new paragraph by leaving a blank line between lines of text.
 
-## 强调
+**Markdown** is a lightweight markup language with concise syntax, allowing people to focus more on the content itself rather than the layout. It uses a plain text format that is easy to read and write to write documents, can be mixed with HTML, and can export HTML, PDF, and its own .md format files. Because of its simplicity, efficiency, readability, and ease of writing, `Markdown` is widely used, such as [Github](https://github.com/), Wikipedia, Jianshu, etc.
 
-**加粗**
-*斜体*
-<u>下划线</u>
-~~删除线~~
-[超链接](https://github.com)
+## Emphasis
+I just love **bold text**.
+Italicized text is the *cat's meow*.
+<u>Underline requires HTML syntax.</u>
+~~Delete this text.~~
+Link to the [github.](https://github.com)
 
-## 引用
-> Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。
+## Quoting text
+> **Markdown** is a lightweight markup language with concise syntax, allowing people to focus more on the content itself rather than the layout. It uses a plain text format that is easy to read and write to write documents, can be mixed with HTML, and can export HTML, PDF, and its own .md format files. Because of its simplicity, efficiency, readability, and ease of writing, `Markdown` is widely used, such as [Github](https://github.com/), Wikipedia, Jianshu, etc.
 
-## 列表
+## Lists
 
-### 有序列表
-1. 有序列表有序列表有序列表
-2. 有序列表有序列表有序列表有序列表
-3. 有序列表有序列表有序列表有序列表
+### Ordered Lists
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
   
-### 无序列表
-- 无序列表无序列表无序列表
-- 无序列表无序列表无序列表
-- 无序列表无序列表无序列表无序列表
+### Unordered Lists
+- First item
+- Second item
+- Third item
+- Fourth item
 
-### 任务列表
-- [ ] 任务列表
-- [ ] 任务列表任务列表
-- [x] 任务列表任务列表
+### Task lists
+- [x] https://github.com/microsoft/vscode/issues/224902
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
-## 表格
-| 标题 | 标题 | 标题 |
-| :---: | :---: | :---: |
-| 内容 | 内容 |  内容 |
-| 内容 | 内容 |  内容 |
+## Table
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
-## 代码块
+## Code blocks
 
 ```c++
 #include <iostream>
@@ -118,17 +120,25 @@ echo '"quoted"' | tr -d \" > text.txt
 ]
 ```
 
+## Footnotes
+Here is a simple footnote[^1].
 
-## 折叠快
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+## Collapsed sections
 <details>
-<summary>点击展开</summary>
-隐藏文字隐藏文字隐藏文字。隐藏文字隐藏文字隐藏文字。隐藏文字隐藏文字隐藏文字。隐藏文字隐藏文字隐藏文字。隐藏文字隐藏文字隐藏文字。
+<summary>Click to expand</summary>
+You can temporarily obscure sections of your Markdown by creating a collapsed section that the reader can choose to expand. For example, when you want to include technical details in an issue comment that may not be relevant or interesting to every reader, you can put those details in a collapsed section.
 </details>
 
-## 表情
+## Emoji
 😂🤣😡📱🇨🇳😍
 
-## 警报
+## Alerts
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -144,5 +154,5 @@ echo '"quoted"' | tr -d \" > text.txt
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-## 图片
+## Images
 ![github](https://myoctocat.com/assets/images/base-octocat.svg)
