@@ -20,7 +20,7 @@ You can create a new paragraph by leaving a blank line between lines of text.
 ## Emphasis
 I just love **bold text**.
 Italicized text is the *cat's meow*.
-<u>Underline requires HTML syntax.</u>
+<ins>Underline</ins> requires `<ins>` HTML syntax 
 ~~Delete this text.~~
 Link to the [github.](https://github.com)
 
